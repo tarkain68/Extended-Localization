@@ -1,0 +1,473 @@
+{
+  "speech": [
+    {
+      "conditions": {
+        "relation": "friendly"
+      },
+      "lines": [
+        "Restez sur vos gardes. Il y a de nombreux ennemis dans ces contrées.",
+        "Gardez un campement sûr la nuit, et restez hors des ombres.",
+        "Nous autres Rôdeurs gardons mémoire de l'ancien savoir de l'Ouest. Nous avons des moyens de marcher sans être vus.",
+        "Méfiez-vous de la misérable vermine de Morgul qui rampe la nuit.",
+        "Le loup que l'on entend est pire que l'Orque que l'on craint.",
+        "Soyez vigilant, de nombreux nouveaux dangers ont surgi en ces jours sombres.",
+        "Nous sommes des gens solitaires, Rôdeurs des terres sauvages, chasseurs - mais chasseurs des serviteurs de l'Ennemi, toujours.",
+        "Les serviteurs de l'Ennemi se trouvent en de nombreux endroits, pas seulement en Mordor.",
+        "En temps de besoin, nous chevaucherons au secours de l'héritier d'Isildur.",
+        "Les rangs de notre compagnie s'amenuisent ces derniers temps.",
+        "Les Hommes de l'Ouest faiblissent, mais tant que je respire, je défendrai notre peuple.",
+        "Les terres sauvages sont dangereuses, on ne sait jamais quand on est chassé.",
+        "Surveillez vos arrières dans les contrées sauvages.",
+        "Il y a eu des vents mauvais ces derniers temps.",
+        "Quelles nouvelles apportez-vous ?",
+        "Une froide obscurité s'abat sur les royaumes des Hommes.",
+        "J'ai vu de mes yeux la ruine d'Annúminas, où se trouvait jadis notre capitale.",
+        "Dans mon cœur, #p, je rêve encore d'un jour où les Dúnedain seront réunis.",
+        "Oh comme j'aurais voulu que nous puissions voir l'Arnor dans sa splendeur - maintenant il n'y a que des ruines et des tombeaux."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "weather": "rain | snow"
+      },
+      "lines": [
+      "Puisse votre manteau vous garder au sec, #p.",
+      "Les terres sauvages peuvent être rudes et impitoyables.",
+      "Le temps peut être rude mais les Orques sont plus infects.",
+      "J'espère que ce temps va bientôt se dégager.",
+      "Le temps peut être humide et froid mais il offre une bonne couverture contre les ennemis invisibles.",
+      "Ces nuages donnent de la vitesse aux créatures malfaisantes des ténèbres."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "rank": ">=captain"
+      },
+      "lines": [
+      "Bien rencontré Capitaine #p !",
+      "Salutations Capitaine !",
+      "Quelles nouvelles apportez-vous, #p ?"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "biome": "lotr:lone_lands | lotr:eriador | lotr:hills_of_evendim | lotr:eriador_downs | lotr:lone_lands_hills | lotr:minhiriath | lotr:enedwaith",
+        "rank": "<=warden"
+      },
+      "lines": [
+        "Vous n'êtes pas un espion de l'ennemi, n'est-ce pas ?",
+        "Vous joindrez-vous à nous dans notre lutte contre les forces malfaisantes qui croissent en ces terres ?",
+        "J'hésite à vous faire confiance, de nombreux espions ont été vus dans ces contrées.",
+        "Ce sont des temps sombres, on ne sait jamais à qui se fier.",
+        "Êtes-vous ami ou ennemi ?"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "biome": "lotr:lone_lands | lotr:eriador | lotr:hills_of_evendim | lotr:eriador_downs | lotr:lone_lands_hills | lotr:minhiriath | lotr:enedwaith"
+      },
+      "lines": [
+        "Les miens gardent ces terres depuis longtemps contre les dangers qui guettent au Nord.",
+        "Tant que nous veillons sur ces terres, les voyageurs tels que vous pourront voyager en paix.",
+        "Méfiez-vous des anciens êtres des galgals et des ombres qui errent en ces terres. On dit qu'ils peuvent prendre possession de votre corps.",
+        "Nos foyers, tels qu'ils sont, sont ici dans le Nord.",
+        "Méfiez-vous des Landes d'Etten, des Trolls ont été vus descendre des montagnes.",
+        "Sans nous, ces terres seraient tombées dans les ténèbres depuis longtemps.",
+        "Ces terres sont mon domaine, et je fais tout en mon pouvoir pour les protéger.",
+        "Ce n'est pas pour rien que nous surveillons ces terres. De nombreuses bêtes malfaisantes y nichent.",
+        "Qu'est-ce qui vous amène dans ces contrées sauvages ?",
+        "Nous autres Rôdeurs avons veillé sur ces terres pendant des générations perdues dans la mémoire.",
+        "Depuis longtemps nous gardons ces terres.",
+        "Notre royaume jadis grand régnait sur ces terres.",
+        "Aux jours anciens nos cités s'étendaient à travers ces terres, maintenant nos cités ne sont que décombres et notre peuple est dispersé.",
+        "Nous seuls gardons mémoire de la gloire de l'Arnor.",
+        "Notre peuple a protégé ces terres pendant des siècles.",
+        "C'était le Royaume d'Arnor avant sa chute, maintenant nous sommes tout ce qui reste de notre royaume jadis grand.",
+        "Ces terres étaient un grand royaume aux jours anciens, mais ces jours sont depuis longtemps révolus...",
+        "Nul autre que nous ne se souvient du grand royaume qui régnait jadis sur ces terres...",
+        "Si vous remontez la Route Verte vers le nord, vous arriverez aux ruines de Fornost Erain, la Citadelle des Rois. À son apogée c'était une grande cité de l'Arnor, maintenant ce n'est qu'un souvenir de notre Royaume déchu."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "biome": "lotr:lone_lands_hills"
+      },
+      "lines": [
+        "Avez-vous vu les ruines d'Amon Sûl ? Elles sont juste au sud d'ici et font un bon campement.",
+        "Le Mont Venteux est juste au sud d'ici. On l'appelait la tour de guet d'Amon Sûl du temps de notre Ancien Royaume.",
+        "J'ai entendu dire que la tour de guet d'Amon Sûl abritait jadis un palantír du temps de l'Arnor. Il fut perdu quand le Roi Arvedui se noya avec dans la Baie de Glace de Forochel. Il aurait dû écouter l'avertissement des Hommes des Neiges."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "biome": "lotr:hills_of_evendim"
+      },
+      "lines": [
+        "La grande cité d'Annúminas fut bâtie dans ces collines, c'était la première capitale du Royaume d'Arnor."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "biome": "lotr:shire | lotr:breeland | lotr:shire_woodlands | lotr:shire_moors | lotr:white_downs | lotr:chetwood"
+      },
+      "lines": [
+        "Sans nous, ces terres seraient tombées dans les ténèbres depuis longtemps.",
+        "Ces terres sont mon domaine, et je fais tout en mon pouvoir pour les protéger.",
+        "Depuis longtemps nous gardons ces terres.",
+        "Depuis les ombres nous protégeons ces terres.",
+        "Les Semi-Hommes ne nous apprécient guère, mais de loin nous sommes leurs gardiens.",
+        "Des cavaliers en manteaux noirs ont été vus dans ces parages.",
+        "Nous luttons dur pour maintenir la paix en ces terres.",
+        "Les Semi-Hommes mènent une vie simple sous les yeux vigilants des Dúnedain.",
+        "Il a été difficile de protéger ces terres depuis qu'on nous a chassés du Gué de Sarn.",
+        "Ces gens ignorent les dangers qui grandissent hors de leurs frontières.",
+        "Des gens malfaisants se sont pris d'intérêt pour ces terres."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "biome": "lotr:breeland | lotr:chetwood"
+      },
+      "lines": [
+        "Des gens malfaisants sont venus à Bree.",
+        "Ne faites pas confiance aux voleurs qui rôdent autour du Pays de Bree.",
+        "Les gens de Bree se méfient de nous, mais nous ne leur voulons aucun mal.",
+        "Beaucoup de ceux qui vivent ici nous considèrent comme des bandits et des parias. Ils ignorent nos véritables devoirs."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "biome": "lotr:further_gondor | lotr:anorien | lotr:pinnath_gelin | lotr:anfalas | lotr:blackroot_vale | lotr:lamedon | lotr:pelargir | lotr:lossarnach | lotr:lebennin | lotr:emyn_en_ernil | lotr:dor_en_ernil"
+      },
+      "lines": [
+        "Ce sont les terres de nos parents, bien que beaucoup ici semblent l'avoir oublié.",
+        "Les Hommes du Gondor ont peu de respect pour nous, Rôdeurs du Nord.",
+        "Les intendants du Gondor n'accepteront jamais l'héritier d'Isildur comme roi légitime.",
+        "Les Dúnedain du nord et du sud étaient jadis unis, maintenant les nouvelles de ces terres nous parviennent rarement.",
+        "Les Hommes du Gondor sont notre dernier rempart contre les terres sombres du Mordor.",
+        "Un jour l'héritier d'Isildur régnera comme roi sur ces terres et notre peuple sera réuni à nouveau.",
+        "J'ai espoir en les Hommes du Gondor qui résistent aux armées du Mordor.",
+        "En Ithilien il y a des Gondoriens comme nous, qui gardent les terres sauvages en tant que rôdeurs.",
+        "Le Gondor. Le royaume méridional des Dúnedain.",
+        "Le Gondor était jadis un proche allié de l'Arnor avant la chute de notre royaume."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "biome": "lotr:rivendell | lotr:rivendell_hills"
+      },
+      "lines": [
+        "Le Seigneur Elrond est un hôte gracieux de nous accueillir en ses terres.",
+        "Les Dúnedain du nord et les Elfes d'Imladris ont toujours eu des liens étroits.",
+        "Fondcombe. La dernière maison simple des Elfes à l'est de la mer.",
+        "Peu d'endroits en Terre du Milieu sont aussi beaux que celui-ci.",
+        "Les Elfes de Fondcombe sont très accueillants.",
+        "Fondcombe abrite de nombreuses reliques de notre peuple, comme les fragments de Narsil, l'épée qui trancha l'anneau de la main de Sauron.",
+        "Beaucoup des Elfes ici ont été témoins de la chute de notre royaume.",
+        "Les maîtres du savoir d'Imladris détiennent une grande connaissance des Númenóréens, nos ancêtres.",
+        "Vous avez de la chance d'être le bienvenu en ces terres, #p.",
+        "Elrond détient le Sceptre d'Annúminas, une relique de nos rois d'antan jusqu'à la venue de l'héritier d'Isildur.",
+        "Fondcombe possède de nombreux livres sur l'histoire de l'ancien Royaume d'Arnor."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "biome": "lotr:breeland | lotr:chetwood",
+        "rank": ">=warden"
+
+      },
+      "lines": [
+        "Je vous conseille de vous arrêter à l'auberge du Poney Fringant avant de retourner dans les terres sauvages, #p.",
+        "Les Cavaliers Noirs qui ont attaqué le Gué de Sarn sont venus ici à Bree, ce sont des temps sombres #p.",
+        "Surveillez vos arrières, #p, Bree a été remplie de gens peu recommandables ces derniers temps.",
+        "Je me demande quel intérêt ces espions ont pour Bree.",
+        "Des gens malfaisants du sud sont venus à Bree.",
+        "On nous observe #p, n'en dites pas trop.",
+        "Les rapports indiquent que Bree a été remplie d'espions ces derniers temps."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "rank": ">=friend",
+        "biome": "lotr:shire | lotr:breeland | lotr:shire_woodlands | lotr:shire_moors | lotr:white_downs | lotr:chetwood"
+      },
+      "lines": [
+        "Depuis longtemps nous gardons ces terres, #p.",
+        "Qu'est-ce qui vous amène dans ces contrées sauvages, #p ?",
+        "Ce n'est pas pour rien que nous surveillons ces terres, #p. De nombreuses bêtes malfaisantes y nichent.",
+        "Tant que nous veillons sur ces terres, les voyageurs tels que vous pourront voyager en paix, #p.",
+        "Méfiez-vous des anciens êtres des galgals et des ombres qui errent en ces terres, #p. On dit qu'ils peuvent prendre possession de votre corps.",
+        "Ces terres sont mon domaine, #p, et je fais tout en mon pouvoir pour les protéger.",
+        "Les gens d'ici ignorent ce qui se trouve au-delà de leurs frontières.",
+        "Nous autres Rôdeurs protégeons ces terres de loin.",
+        "Je ferai en sorte qu'aucun danger n'entre en ces terres."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "rank": ">=friend"
+      },
+      "lines": [
+        "Puisse votre voyage être rapide et votre manteau chaud, #p.",
+        "Méfiez-vous de la misérable vermine de Morgul qui rampe la nuit, #p.",
+        "Soyez vigilant, #p. De nombreux nouveaux dangers ont surgi en ces jours sombres.",
+        "Je suis soulagé de savoir que vous n'êtes pas un serviteur de l'ennemi, #p !",
+        "Puissent vos pas être légers et votre manteau vous dissimuler, #p."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "rank": ">=friend",
+        "day_or_night": "day"
+      },
+      "lines": [
+        "Bonne journée, #p. De quelle terre venez-vous ?",
+        "Bonne journée, #p !",
+        "À la tombée de la nuit ces terres grouilleront d'Orques."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "rank": ">=warden"
+      },
+      "lines": [
+        "Bien rencontré #p ! Apportez-vous des nouvelles ?",
+        "Bree a été attaquée par des Cavaliers Noirs, les mêmes qui ont attaqué les Rôdeurs au Gué de Sarn. Ce sont des temps sombres.",
+        "Soyez prudent si vous allez à Bree, des espions et des voleurs se sont installés dans ces parages.",
+        "Salutations #p, avez-vous des nouvelles de nos parents au sud ?",
+        "Chaque jour plus d'Orques descendent des montagnes.",
+        "Notre ennemi se relève, #p.",
+        "On dit que des Orques ont rempli l'Isengard, il semble que Saroumane soit maintenant parmi nos ennemis.",
+        "Les hommes des collines du nord ont grandi en nombre ces derniers temps.",
+        "Notre vieil ennemi dans le nord grandit, #p.",
+        "Avez-vous entendu des nouvelles du sud ?",
+        "Méfiez-vous de nos tombeaux #p, ils ont été maudits."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "pledge": "lotr:rohan"
+      },
+      "lines": [
+      "Cavalier du Rohan ! Quelles nouvelles de la Marche ?",
+      "La rumeur dit que des Orques ont pillé vos terres en portant la Main Blanche. Est-ce donc vrai, Saroumane nous a-t-il trahis ?",
+      "Des voleurs et des espions remontent la Route Verte depuis la Trouée du Rohan et s'installent à Bree, êtes-vous au courant ?",
+      "Salutations #p, Cavalier du Rohan.",
+      "J'ai entendu dire que le Roi Théoden a été empoisonné, est-ce vrai ?"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "pledge": "lotr:high_elves | lotr:lothlorien | lotr:woodland_realm"
+      },
+      "lines": [
+      "Mae govannen, #p.",
+      "Aï ! Quelles nouvelles des Elfes ?",
+      "Mae govannen mellon nín.",
+      "J'ai entendu dire qu'une seule bouchée de lembas peut rassasier un homme adulte !",
+      "Des récits de Cavaliers Noirs ont été entendus à travers l'Eriador, je crains que les Nazgûl d'antan ne soient revenus.",
+      "Depuis longtemps les Elfes se tiennent aux côtés de notre peuple.",
+      "La splendeur des Elfes est toujours bienvenue parmi les Dúnedain.",
+      "Le sentez-vous ? Sentez-vous les ténèbres grandir à travers la Terre du Milieu ?"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "pledge": "lotr:gondor"
+      },
+      "lines": [
+      "Vous tiendrez-vous aux côtés de l'héritier d'Isildur quand il entrera dans votre royaume ?",
+      "Bien rencontré, #p ! Quelles nouvelles de nos parents au sud ?",
+      "La rumeur dit que des mercenaires du sud ont commencé à piller les côtes du Gondor !",
+      "Les intendants ne peuvent s'opposer à la revendication de l'héritier d'Isildur sur le trône.",
+      "Avez-vous vu les fragments de Narsil ? Ils sont conservés à Fondcombe.",
+      "Le Gondor est notre dernier rempart contre les armées du Mordor.",
+      "Nous sommes la dernière mémoire de l'Ouest.",
+      "Ensemble, les Hommes de l'Ouest résistent aux serviteurs de l'ennemi.",
+      "Bien rencontré, comment vont les Dúnedain du Sud ?",
+      "J'ai entendu dire que la vue depuis Minas Tirith est un spectacle à voir.",
+      "Salutations, #p ! Comment se passe le combat contre le Mordor ?",
+      "J'ai entendu dire que les Rôdeurs d'Ithilien ont des ennuis avec les Haradrim du Sud."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "pledge": "lotr:lossoth"
+      },
+      "lines": [
+      "Les Lossoth ont hébergé le dernier roi de notre ancien royaume, et pour cela ils ont notre gratitude.",
+      "Salutations ! Comment les Hommes des Neiges de Forochel ont-ils traversé les rudes hivers ?",
+      "Les Rôdeurs sont habitués aux terres sauvages, mais vivre dans les étendues gelées du nord est courageux de votre part, #p.",
+      "Bien rencontré, #p. Comment va le peuple du Forodwaith ?",
+      "J'ai entendu dire que les Lossoth vivent dans des huttes de neige, votre persévérance contre le froid hivernal est admirable.",
+      "Sans votre peuple, un héritage de notre maison, l'Anneau de Barahir aurait été perdu dans la mer.",
+      "Il y a longtemps, votre peuple a hébergé Arvedui, notre dernier roi, contre les dangers du Roi-Sorcier."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "pledge": "lotr:bree"
+      },
+      "lines": [
+      "Ne faites pas confiance à ces Brigands, #p. Ce sont des espions de l'ennemi.",
+      "Nous gardons les terres sauvages qui entourent vos contrées.",
+      "Ne craignez pas notre peuple, nous n'avons peut-être pas belle allure, mais nous ne vous voulons aucun mal.",
+      "Méfiez-vous des Hauts des Galgals, une malédiction malfaisante pèse sur nos anciens tombeaux.",
+      "Soyez prudent à Bree, beaucoup de gens peu recommandables sont venus du sud.",
+      "J'ai entendu dire que des Cavaliers Noirs sont passés à Bree ? Les choses sont pires que vous ne pourriez le réaliser."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "biome": "lotr:mordor | lotr:mordor_mountains | lotr:gorgoroth | lotr:morgul_vale | lotr:angmar | lotr:angmar_mountains"
+      },
+      "lines": [
+        "Je ressens une profonde terreur dans mon cœur, nous ne devrions pas nous attarder ici.",
+        "Méfiez-vous de la misérable vermine de Morgul qui parcourt ces terres.",
+        "Ce n'est pas sûr ici #p.",
+        "Les serviteurs de l'ennemi sont nombreux en ces terres.",
+        "Ces terres sont enveloppées d'une obscurité contre nature.",
+        "Je n'oserais pas m'aventurer ici de mon plein gré, vous êtes plus courageux que moi #p.",
+        "L'ennemi voudrait que toute la Terre du Milieu soit enveloppée de ces ténèbres.",
+        "Ces terres grouillent d'Orques.",
+        "Jamais je n'ai ressenti une telle peur qu'en ces terres, marchez prudemment.",
+        "Cet endroit fait paraître les terres sauvages accueillantes.",
+        "Je préférerais être n'importe où plutôt qu'en ces terres maudites.",
+        "Je n'aurais jamais dû venir en ces terres.",
+        "J'ai hâte de retourner dans les contrées sauvages de l'Eriador.",
+        "C'est contre ces ténèbres que nous avons juré de combattre.",
+        "Ce n'est pas un endroit pour les Hommes.",
+        "L'air semble toxique ici.",
+        "Je souhaite fuir ces terres maudites."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "biome": "lotr:angmar | lotr:angmar_mountains"
+      },
+      "lines": [
+        "C'est le royaume d'Angmar, notre ancien ennemi.",
+        "Aux jours anciens de notre royaume, le Roi-Sorcier d'Angmar commandait ses forces depuis ces terres maudites.",
+        "Je pensais que le royaume d'Angmar était quasiment abandonné, j'ai le cœur lourd de savoir que l'ennemi est revenu.",
+        "Les hommes de ces terres faisaient jadis partie de notre royaume, maintenant ils sont les serviteurs de l'ennemi."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "hired": "own"
+      },
+      "lines": [
+        "Mon devoir est envers mon capitaine #p et les terres sur lesquelles je monte la garde.",
+        "L'immondice de Morgul de la nuit périra devant nous !",
+        "J'ai juré de défendre les terres des peuples libres, et les défendre je le ferai !",
+        "Puisse votre voyage être rapide et votre manteau chaud, capitaine #p.",
+        "À la tombée de la nuit ces terres grouilleront d'Orques.",
+        "Restez sur vos gardes, capitaine #p. Il y a de nombreux ennemis dans ces contrées.",
+        "Nous autres Rôdeurs gardons mémoire de l'ancien savoir de l'Ouest. Nous avons des moyens de marcher sans être vus.",
+        "Le loup que l'on entend est pire que l'Orque que l'on craint.",
+        "Nous autres Rôdeurs avons des moyens de nous mouvoir sans être vus ni entendus.",
+        "Je vous suivrai où que vous alliez !",
+        "J'ai des moyens de me mouvoir sans être vu dans les ombres.",
+        "Chassons de l'Orque !",
+        "Je me bats pour la mémoire de l'Ouest, #p.",
+        "Vous êtes un véritable ami des Dúnedain, #p.",
+        "Nous vous suivrons à travers la mort et la ruine !",
+        "La misérable vermine de Morgul subira notre courroux !",
+        "Ruine sur tous les ennemis des Dúnedain !",
+        "Nous devrions rester dans les ombres, #p."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "hired": "own",
+        "biome": "lotr:lone_lands | lotr:eriador | lotr:hills_of_evendim | lotr:eriador_downs | lotr:lone_lands_hills | lotr:minhiriath | lotr:enedwaith"
+      },
+      "lines": [
+        "Les miens gardent ces terres depuis longtemps.",
+        "Depuis longtemps nous gardons ces terres, capitaine #p.",
+        "Nous autres Rôdeurs avons veillé sur ces terres pendant des générations perdues dans la mémoire."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "hostile",
+        "biome": "lotr:lone_lands | lotr:eriador | lotr:hills_of_evendim | lotr:eriador_downs | lotr:lone_lands_hills | lotr:minhiriath | lotr:enedwaith"
+      },
+      "lines": [
+        "Vous n'êtes pas le bienvenu en ces terres, #p !",
+        "Fuyez nos terres, misérable allié de l'immondice de Morgul !",
+        "Nous autres Rôdeurs avons veillé sur ces terres pendant des générations perdues dans la mémoire, nous ne les laisserons pas tomber aux mains de gens de votre espèce !",
+        "Fuyez ces terres, #p ! Vous n'êtes pas le bienvenu ici !",
+        "Je ne laisserai pas ces terres sans garde. Fuyez, vermine !",
+        "Ces terres sont protégées par les derniers des Dúnedain !",
+        "Partez de ces terres !"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "hostile",
+        "biome": "lotr:shire | lotr:breeland | lotr:shire_woodlands | lotr:shire_moors | lotr:white_downs | lotr:chetwood"
+      },
+      "lines": [
+        "Je ne vous laisserai pas faire de mal aux gens libres de ces terres !",
+        "Je protégerai la vie de ces gens jusqu'à mon dernier souffle !",
+        "Les Semi-Hommes ne subiront aucune de vos traîtrises !",
+        "Ces terres sont mon domaine ! Je ferai tout en mon pouvoir pour les protéger !",
+        "Ne croyez pas que ces terres sont sans protection, #p !",
+        "Ces terres sont protégées par les Rôdeurs du Nord !"
+      ]
+    },
+    {
+      "conditions": {
+        "alternatives": [
+          {
+            "relation": "hostile"
+          }
+        ]
+      },
+      "lines": [
+        "Notre peuple est peut-être dispersé mais nous nous dressons ensemble contre vous !",
+        "Retournez dans votre misérable trou, serviteur de l'ennemi !",
+        "Nous ne laisserons pas la mémoire de l'Ouest s'éteindre !",
+        "Les Hommes de l'Ouest se dressent contre vous !",
+        "Votre mort viendra aussi vite que la flèche qui transperce la chair, #p !",
+        "J'en finirai avec vous !",
+        "Vous ne manquerez à personne, #p !",
+        "Vous êtes un ennemi de la race des Hommes, #p !",
+        "Quelle folie vous a conduit ici ?",
+        "Rampez dans la nuit, #p !",
+        "Vous pensiez pouvoir égaler notre adresse ? Vous vous êtes cruellement trompé !",
+        "Quand #p a-t-il abandonné la raison pour la folie ?",
+        "Votre fin approche, #p !",
+        "Ne sous-estimez pas les Rôdeurs du Nord.",
+        "Retournez dans les ténèbres d'où vous venez !",
+        "Quelle diablerie du Seigneur Ténébreux apportez-vous ici ?",
+        "Vous rencontrerez votre fin promptement, vermine du Mordor !"
+      ]
+    }
+  ]
+}

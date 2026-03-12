@@ -1,0 +1,121 @@
+{
+  "parent": "lotr:rohan/common",
+  "speech": [
+    {
+      "conditions": {
+        "relation": "friendly"
+      },
+      "lines": [
+        "Nous sommes les bergers et les fermiers de la Marche.",
+        "Si jamais ces Orques de la Main Blanche viennent par ici, je suis prêt à me battre.",
+        "J'aimerais pouvoir rejoindre les Cavaliers du Roi, et combattre pour ma famille.",
+        "Les Orques se multiplient dans les montagnes. Je crains pour ma famille, #p.",
+        "J'ai peur pour notre peuple.",
+        "On parle de pillards du Pays Noir qui se faufilent la nuit et volent nos chevaux. Je ne peux pas supporter d'y penser, à vrai dire.",
+        "On dit que le peuple cruel de Sutherstreams se rassemble pour un assaut sur Stoningland.",
+        "Où sont le cheval et le cavalier ? Nous avons besoin d'eux plus que jamais, #p."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "rank": "<=guest",
+        "biome": "#home"
+      },
+      "lines": [
+        "Quelle affaire vous amène ici, voyageur ?",
+        "Vous n'êtes pas un espion d'un magicien, n'est-ce pas, #p ?",
+        "Le Magicien Blanc a de nombreux espions à son service. Vous n'en êtes pas un, n'est-ce pas ?"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "rank": ">=atarms"
+      },
+      "lines": [
+        "Le Roi est malade, dit-on. Il n'est plus ce qu'il était.",
+        "Où est le Roi quand on a besoin de lui, #p ? Où sont ses cavaliers ?",
+        "Nos récoltes dépérissent, nos chevaux sont volés, et on dit que la maladie du Roi empire de jour en jour."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "hostile"
+      },
+      "lines": [
+        "Tu es un scélérat !",
+        "Hors de ma vue, #p.",
+        "Que me veux-tu, gredin ?",
+        "Bandit ! Retourne d'où tu viens !",
+        "Tu es pire que les hommes sauvages !",
+        "Ne fais pas de mal à mes chevaux !",
+        "Du balai, scélérat !",
+        "Je ne traite pas avec les vauriens de ton espèce !",
+        "Qu'es-tu, #p, bandit, Homme-Gobelin, ou quelque diablerie d'Isengard ?",
+        "Reste loin de moi.",
+        "Je ne veux rien avoir à faire avec toi."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "hostile",
+        "biome": "#home"
+      },
+      "lines": [
+        "Je te suggère de quitter cet endroit, #p.",
+        "Je te suggère de quitter cet endroit. Les Cavaliers du Roi ne vont pas tarder.",
+        "Tu ne seras pas le bienvenu ici.",
+        "Les héros du Rohan t'abattront, #p.",
+        "Les Cavaliers du Roi t'abattront, #p.",
+        "Gardes ! Gardes !",
+        "Va-t'en, #p. Nous ne voulons pas du mal ici.",
+        "Les bandits de ton espèce ne sont pas les bienvenus ici.",
+        "Toi et les tiens n'êtes pas les bienvenus au Rohan.",
+        "Toi et les tiens n'êtes pas les bienvenus dans la Marche.",
+        "Les gredins de ton espèce ne sont pas les bienvenus sur ces terres."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "hostile",
+        "pledge": "lotr:isengard"
+      },
+      "lines": [
+        "Tu sers la Main Blanche !",
+        "Va-t'en, esclave d'Isengard !",
+        "Tu es un démon au service du Magicien Blanc ! Arrière !"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "hostile",
+        "pledge": "lotr:dunland"
+      },
+      "lines": [
+        "Va-t'en, Dunlending !",
+        "Va-t'en, esclave des Dunlendings !"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "hostile",
+        "pledge": "lotr:mordor | lotr:near_harad | lotr:rhudel"
+      },
+      "lines": [
+        "Tu sers le Seigneur Ténébreux !",
+        "Va-t'en, esclave du Mordor !"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "hostile",
+        "pledge_relation": "bad"
+      },
+      "lines": [
+        "Tu sers l'Ennemi !",
+        "Va-t'en, esclave de l'Ennemi !"
+      ]
+    }
+  ]
+}

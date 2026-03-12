@@ -1,0 +1,256 @@
+{
+  "speech": [
+    {
+      "conditions": {
+        "relation": "friendly"
+      },
+      "lines": [
+        "Je cherche de la chair d'Homme !",
+        "Je sens de la chair d'Homme !",
+        "Où est la chair d'Homme ?",
+        "Qu'est-ce que tu veux ?",
+        "J'ai rien eu d'autre que du pain plein d'asticots pendant trois jours puants !",
+        "Encore du pain plein d'asticots ? Donne-moi de la chair d'Homme !",
+        "J'ai hâte de planter mes crocs dans de la chair d'Homme !",
+        "Qu'est-ce que tu cherches ?",
+        "L'air est fétide ici.",
+        "On va leur briser les os et se repaître de leur chair !",
+        "Mort aux terres des Hommes ! Mort aux Elfes crasseux !",
+        "Mort à la lignée de Durin !",
+        "Ces haillons puent !",
+        "Le monde des Hommes sera brisé et détruit.",
+        "Ruine ! Ruine sur les peuples libres !",
+        "Chair d'Homme !",
+        "Elle est où la chair d'Homme la plus proche ? Je crève de faim !",
+        "Rappelle-toi qui c'est qui a pris la Montagne aux Nains crasseux !",
+        "On a chassé les Nains de toutes leurs mines des montagnes ! Et ils reviendront jamais !"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "rank": ">=thrall"
+      },
+      "lines": [
+        "On sert un but commun, #p.",
+        "On va envahir les terres des peuples libres comme une peste ! On laisse rien de vivant !",
+        "Nos Wargs sont les loups les plus féroces et les plus vicieux de tous les clans de Gobelins !"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "rank": "<snaga"
+      },
+      "lines": [
+        "Tu sers qui, toi ?",
+        "T'es même pas digne de monter le plus minable des Wargs !"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "rank": "<raider"
+      },
+      "lines": [
+        "Hors de ma vue, ver de terre !",
+        "Retourne au boulot, raclure de Snaga !",
+        "Tu pues comme un Snaga !",
+        "Nos Wargs sont des sales bêtes ! Alors fais gaffe, ou je les lâche sur toi ! Ha !",
+        "Reste dans le rang, #p, ou les Uruks vont te régler ton compte !"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "rank": ">=raider"
+      },
+      "lines": [
+        "Bientôt, #p ! Bientôt on va piller les fils crasseux des Hommes !",
+        "T'es pas mauvais pour un Homme !",
+        "T'es pas mauvais pour un Homme, #p ! Même si t'as un air de Rôdeur !"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "rank": ">=raider & <warlord"
+      },
+      "lines": [
+        "Sale asticot ! Ah, c'est toi, #p...",
+        "T'as toujours pas l'air d'un Homme-Gobelin, #p !",
+        "Prépare-toi pour la guerre ! Y'en a toujours une qui arrive !"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "rank": "<ravager"
+      },
+      "lines": [
+        "Si tu peux me trouver de la chair d'Homme, je te boufferai pas à la place ! Ha ! Ha !",
+        "Qu'est-ce que tu veux, asticot ?",
+        "Suis tes ordres, raclure !",
+        "Reste pas planté là ! Fais quelque chose !",
+        "J'te fais pas confiance, asticot !",
+        "Circule, raclure !",
+        "Tu cherches la bagarre ?",
+        "J'fais pas confiance aux Hommes crasseux !"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "rank": ">=scourge"
+      },
+      "lines": [
+        "À ton service, #p !",
+        "Quels ordres de la Montagne, #p ?",
+        "Les Uruks disent du bien de toi, #p."
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "rank": "<scourge"
+      },
+      "lines": [
+        "Hé ! Surveille ta langue !",
+        "Quelque chose pue le dégoûtant ici. C'est toi, #p ! Dégage !",
+        "Tu pues !",
+        "Tu pues comme un asticot pourri !"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "rank": "<warlord"
+      },
+      "lines": [
+        "T'as pas l'air d'un Homme-Gobelin !",
+        "Tu veux quelque chose ?"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "rank": ">=warlord"
+      },
+      "lines": [
+        "Quels ordres de Gundabad ?",
+        "Quels ordres de Gundabad, #p ?",
+        "Qu'est-ce que les Chefs ordonnent ?",
+        "À ton service, asticot ! - je veux dire - #p !",
+        "Je préviens les gars que c'est l'heure de l'inspection !",
+        "Je fais préparer ton Warg tout de suite !"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "rank": ">=chieftain"
+      },
+      "lines": [
+        "Alors ? C'est toi le nouveau Chef ?",
+        "On marche à la guerre sur ton ordre !",
+        "Mène-nous jusqu'au bout du monde, #p !"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "hostile"
+      },
+      "lines": [
+        "Je vais te saigner comme un cochon !",
+        "Profite de ton dernier souffle, raclure !",
+        "T'es bien frais, toi !",
+        "Tuez cette raclure !",
+        "On dirait que la viande est de retour au menu, les gars !",
+        "Tu pues la peur !",
+        "Crève, raclure d'Homme !",
+        "Ton sang sent le frais !",
+        "Je vais t'embrocher comme un morceau de viande !",
+        "Tu ferais mieux de courir, asticot !",
+        "Approche encore et je t'embroche comme une belle pièce de viande !",
+        "On dîne de chair d'Homme ce soir !",
+        "Quand j'en aurai fini avec toi, tu seras plus qu'un tas d'os !",
+        "Je vais me repaître de ta chair, ordure d'Homme !",
+        "Je vais faire mon dîner de toi !",
+        "T'as cherché des crosses au mauvais Orque, raclure d'Homme !",
+        "J'aurai ta tête, raclure !",
+        "Ce sale asticot a essayé de me poignarder !",
+        "Raclure de Rôdeur ! Allez, les gars !",
+        "Ver de terre !",
+        "Raclure !",
+        "Asticot !",
+        "Crasse de Snaga !",
+        "Je lâche les Wargs sur toi !",
+        "Nos Wargs vont te régler ton compte !",
+        "Tu pues la fiente de Warg !",
+        "Tu finiras comme les Nains de la Moria !"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "hostile",
+        "player_gender_pref": "m"
+      },
+      "lines": [
+        "Chopez-le, les gars !"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "hostile",
+        "player_gender_pref": "f"
+      },
+      "lines": [
+        "Chopez-la, les gars !"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "hostile",
+        "biome": "#home"
+      },
+      "lines": [
+        "Nos armées t'ont pas encore chassé, raclure ?"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "hostile",
+        "rank": ">=thrall"
+      },
+      "lines": [
+        "Raclure de parjure !",
+        "Parjure ! Crasse de Snaga !",
+        "On va se repaître de tes os, traître !"
+      ]
+    },
+    {
+      "conditions": {
+        "relation": "friendly",
+        "hired": "own"
+      },
+      "lines": [
+        "Quels sont tes ordres, mon seigneur ?",
+        "T'es peut-être mon commandant, #p, mais t'es quand même un sale asticot !",
+        "Mène-nous au pillage, #p !",
+        "L'air pue la peur !",
+        "Les peuples libres de la terre tomberont devant notre puissance !",
+        "La mort ! La mort à tous ceux qui s'opposent à nous !",
+        "On chasse de la chair d'Homme, #p ?",
+        "Mon estomac crève d'envie de chair d'Homme !",
+        "Je suis prêt à chasser de la raclure d'Homme.",
+        "La mort à ces Rôdeurs crasseux et à tous leurs amis crasseux !",
+        "Semons le chaos dans le monde des Hommes !",
+        "Chassons des Hommes !",
+        "Ces Rôdeurs puants savent pas ce qui les attend !",
+        "Appelle les gars ! On marche à la guerre !",
+        "Appelle les Wargs !",
+        "Chassons des Nains !"
+      ]
+    }
+  ]
+}
